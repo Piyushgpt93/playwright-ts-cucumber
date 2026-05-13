@@ -3,3 +3,9 @@ dist/
 test-results/
 playwright-report/
 .env
+
+# Playwright
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
