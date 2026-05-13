@@ -1,0 +1,82 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "parabank-index-page-–-ui-verification;verify-index-page-accessibility",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify index page accessibility",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3752944000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user navigates to the index page",
+            "match": {
+              "location": "src/tests/steps/index_page.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3337220457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the user should see the ParaBank logo",
+            "match": {
+              "location": "src/tests/steps/index_page.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32056624
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": ["Username"]
+                  },
+                  {
+                    "cells": ["Password"]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user should see the login form with fields:",
+            "match": {
+              "location": "src/tests/steps/index_page.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5474874
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "parabank-index-page-–-ui-verification",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Parabank Index Page – UI Verification",
+    "tags": [],
+    "uri": "src/tests/features/index/index_page.feature"
+  }
+]
